@@ -1,0 +1,6 @@
+<script>
+  var map = L.map('map').setView([20.59, 78.96], 5); // Centered on India
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+  L.marker([26.8, 80.9]).bindPopup("Aryavarta Capital").addTo(map);
+  L.marker([33.8, 74.5]).bindPopup("Vallaka - Frozen Kingdom").addTo(map);
+</script>
